@@ -1,0 +1,7 @@
+User-agent: *
+Disallow:
+Disallow: /offers*
+Disallow: /search.php?*
+Disallow: /hotel.php?*
+Disallow: /itinerary/
+Disallow: /itinerary-destinations

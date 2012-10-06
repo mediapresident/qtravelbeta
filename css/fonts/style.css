@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'TwCenRegular';
+    src: url('TCM.eot');
+    src: url('TCM.eot?#iefix') format('embedded-opentype'),
+         url('TCM.woff') format('woff'),
+         url('TCM.ttf') format('truetype'),
+         url('TCM.svg#TCM') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TwCenBold';
+    src: url('TCB.eot');
+    src: url('TCB.eot?#iefix') format('embedded-opentype'),
+         url('TCB.woff') format('woff'),
+         url('TCB.ttf') format('truetype'),
+         url('TCB.svg#TCB') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+

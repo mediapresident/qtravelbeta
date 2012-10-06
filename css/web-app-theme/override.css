@@ -1,0 +1,62 @@
+th.button-column, td.button-column {
+    width: 80px;
+    text-align: right;
+}
+
+.form select.select_field {
+    width: 100%;
+}
+.holders{
+    overflow: auto;
+}
+.holders .holder{
+    float: left;
+    width: 312px;
+    border: 1px solid black;
+    margin: 5px;
+    height: 152px;
+    position: relative;
+}
+
+.delete-btn, .crop-btn, .feat-btn{
+    position: absolute;
+    background: #000;
+    color: #FFF !important;
+    text-decoration: none;
+    text-shadow: none;
+    padding: 5px;
+    right: 0px;
+}
+
+.crop-btn{
+    top:25px;
+}
+
+.feat-btn{
+    bottom: 0px;
+    display: none;
+}
+
+.feat .feat-btn{
+    display: block;
+}
+
+.template{
+    display: none;
+}
+
+.holder img{
+    cursor: pointer;
+}
+.login-box{
+    width: 400px;
+    margin: 0 auto;
+}
+.login-box label{
+    width: 150px;
+    display: inline-block;
+    
+}
+.login-box input{
+    margin: 0px 4px;
+    padding: 2px;

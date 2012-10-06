@@ -1,0 +1,4 @@
+protected/runtime/
+assets/
+index.php
+protected/config/db.php

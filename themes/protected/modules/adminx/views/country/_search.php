@@ -1,0 +1,54 @@
+<div class="wide form">
+
+<?php $form=$this->beginWidget('CActiveForm', array(
+	'action'=>Yii::app()->createUrl($this->route),
+	'method'=>'get',
+)); ?>
+
+	<div class="row">
+		<?php echo $form->label($model,'id'); ?>
+		<?php echo $form->textField($model,'id',array('size'=>8,'maxlength'=>8)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'name'); ?>
+		<?php echo $form->textField($model,'name',array('size'=>60,'maxlength'=>220)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'region_id'); ?>
+		<?php echo $form->textField($model,'region_id'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'thumbnail'); ?>
+		<?php echo $form->textField($model,'thumbnail',array('size'=>60,'maxlength'=>255)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'description'); ?>
+		<?php echo $form->textArea($model,'description',array('rows'=>6, 'cols'=>50)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'title'); ?>
+		<?php echo $form->textField($model,'title',array('size'=>60,'maxlength'=>120)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'meta_keywords'); ?>
+		<?php echo $form->textField($model,'meta_keywords',array('size'=>60,'maxlength'=>255)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'meta_description'); ?>
+		<?php echo $form->textField($model,'meta_description',array('size'=>60,'maxlength'=>255)); ?>
+	</div>
+
+	<div class="row buttons">
+		<?php echo CHtml::submitButton('Search'); ?>
+	</div>
+
+<?php $this->endWidget(); ?>
+
+</div><!-- search-form -->

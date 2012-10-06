@@ -1,0 +1,539 @@
+/* 
+    Document   : common
+        Created on : 17-Feb-2012, 19:26:40
+            Author     : Ganesh
+                Description:
+                        Purpose of the stylesheet follows.
+*/
+
+@font-face {
+    font-family: 'TwCenRegular';
+    src: url('fonts/TCM.eot');
+    src: url('fonts/TCM.eot?#iefix') format('embedded-opentype'),
+        url('fonts/TCM.woff') format('woff'),
+        url('fonts/TCM.ttf') format('truetype'),
+        url('fonts/TCM.svg#TCM') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TwCenBold';
+    src: url('fonts/TCB.eot');
+    src: url('fonts/TCB.eot?#iefix') format('embedded-opentype'),
+        url('fonts/TCB.woff') format('woff'),
+        url('fonts/TCB.ttf') format('truetype'),
+        url('fonts/TCB.svg#TCB') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+a span, a{
+    text-decoration: none;
+}
+h1, h2, h3, h4{
+    text-align: left !important;
+}
+img{
+    outline: 0;
+    border: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+root { 
+    display: block;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial;
+    font-size: 10px;
+    line-height: 1.5;
+    zoom: 1;
+}
+.clear{
+    clear: both;
+}
+a{
+    color: #8C7853 !important;
+}
+.wrap{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+}
+.header .logo{
+    display: block;
+    float: left;
+    width: 626px;
+    height: 100px;
+    background: url(/images/sprite.png) no-repeat;
+    text-indent: -9999px;
+    margin-top: 5px;
+}
+.contact-info{
+    float: right;
+    padding-top: 30px;
+    color: #8c7853;
+    font-family: "TwCenBold";
+    font-weight: bold;
+}
+.contact-info span{
+    display: block;
+    text-align: right;
+}
+.contact-info .phone{
+    font-size: 1.6em;
+}
+.contact-btn{
+    font-size: 1.8em;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-family: "TwCenRegular";
+    font-weight: normal;
+}
+.mail-icon{
+    width: 27px;
+    height: 38px;
+    background: url(/images/sprite.png) no-repeat;
+    background-position: -9px -123px;
+    display: inline-block !important;
+    margin-right: 5px;
+    *display: inline;
+}
+#nav{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    overflow: visible;
+    position: relative;
+    height: 25px;
+}
+#nav li{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+#nav li a{
+    text-decoration: none;
+    font-family: "TwCenBold";
+    font-weight: bold;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    padding: 0px 70px;
+    margin: 0px;
+}
+#nav li.first a{
+    padding-left: 0px;
+}
+#nav li.last a{
+    padding-right: 0px;
+    padding-left: 51px;
+}
+
+.row{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+
+}
+.content{
+    margin: 0px -6px;
+}
+
+.col{
+    margin: 0px 6px 10px 6px;
+    padding: 0px;
+    width: 312px;
+    float: left;
+    zoom: 1;
+    position: relative;
+    font-size: 1.25em;
+    text-align: justify;
+}
+
+.content .col{
+    text-align: justify;
+}
+.col.double{
+    width: 636px;
+}
+.col.triple{
+    width: 960px;
+}
+.col.triple p{
+    margin: 2px 0px;
+    padding: 5px 0px;
+}
+.row.small{
+    padding-left: 1px;
+}
+.small .col{
+    width: 184px;
+    margin: 0px 5px;
+}
+
+.col.content{
+    width: 470px;
+}
+.col.tool{
+    width: 233px;
+}
+
+.fl{
+    float: left;
+    display: block;
+}
+.fr{
+    float: right;
+    display: block;
+}
+.icon{
+    height: 64px;
+    background: url(/images/sprite.png) no-repeat;
+    text-indent: -9999px;
+}
+.icon.ba{
+    background-position: -339px -115px;
+    width: 124px;
+}
+.icon.emirates{
+    background-position: -455px -115px;
+    width: 82px;
+}
+.icon.atil{
+    background-position: -548px -108px;
+    width: 64px;
+}
+.footer{
+    padding: 20px 0px;
+    border-top: 1px solid #000;
+    margin-top: 20px;
+}
+.footer .mid{
+    height: 50px;
+    width: 680px;
+    float: left;
+}
+.mid ul{
+    list-style: none;
+    margin: 0px auto;
+    padding: 0px;
+}
+.mid ul li{
+    float: left;
+}
+.mid ul li a{
+    padding: 5px 31px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "TwCenRegular";
+    font-weight: normal;
+    color: #000;
+    font-size: 1.6em;
+}
+.ftext{
+    font-family: "TwCenRegular";
+    font-weight: normal;
+    font-size: 1.1em;
+    text-align: center;
+    float: left;
+    margin-left: 15px;
+}
+.footer-links{
+    text-align: center;
+}
+.footer-links a{
+    margin: 0px 10px;
+    color: #222;
+    text-decoration: none;
+}
+
+
+/** slideshow **/
+.slideshow{
+    height: 458px;
+    width: 100%;
+    background: #333;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.search-slider{
+    position: absolute;
+    bottom: 0px;
+    width: 960px;
+    left: 0px;
+    background: url(/images/w90.png);
+}
+.search-slider .col{
+    width: 234px;
+    margin: 0px 6px !important;
+    margin-right: 79px !important;
+}
+
+.search-slider .row.tools{
+    padding-top: 5px;
+    display: none;
+}
+.row.heading{
+    cursor: pointer;
+}
+
+.row.heading{
+    background: #8c7853;
+    color: #FFF;
+    font-family: "TWCenBold";
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+h1, h2, .col h2,.col h3{
+    font-family: "TWCenBold";
+    font-weight: bold;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #8C7853;
+    padding: 5px 0px;
+    margin: 0px;
+}
+.col h3{
+    font-size: 1.2em;
+    margin-bottom: 0px;
+}
+
+.form input[type=text], .form input[type=text]:focus, .form input[type=text]:active, select, .form .dropdownbtn, .form textarea{
+    border: 0;
+    color: #FFF;
+    font-family: "TWCenRegular";
+    font-weight: normal;
+    font-size: 1.2em;
+    background: #8C7853;
+    width: 230px;
+    padding: 1px 0px 1px 3px;
+    line-height: 1.4;
+    outline: 0;
+    margin: 0;
+}
+.form select{
+    width: 233px;
+    opacity: 0;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.form .box{
+    position: relative;
+    margin-bottom: 6px;
+    float: left;
+}
+.form input[type=submit]{
+    border: 0;
+    outline: 0;
+    background: #8C7853;
+    color: #FFF;
+    font-family: "TWCenRegular";
+    font-weight: normal;
+    font-size: 1.2em;
+    padding: 2px 18px 3px 18px;
+    margin: 0;
+    border-radius: 2px;
+
+}
+.form .box.small{
+    float: right;
+}
+.form .dropdownbtn{
+    display: block;
+    background-image:url(/images/ddarrow.png) !important;
+    background-position: right center !important;
+    background-repeat: no-repeat !important;
+}
+.z{
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.f-image{
+    width: 100%;
+    height: 152px;    
+    display: block;
+    background: #EEE;
+}
+.row.small .f-image{
+    height: 100px !important;
+}
+.top-border{
+    border-top: 1px solid #000;
+}
+bot-border{
+    border-bottom: 1px solid #000;
+}
+
+/** destination drop down **/
+.destination-dropdown{
+    position: absolute;
+    top: 25px;
+    padding: 0 0 5px 5px;
+    margin: 0;
+    left: 0px;
+    z-index: 9999;
+    font-family: Arial !important;
+    font-size: 1em;
+    background: url(/images/w90.png);
+    display: none;
+}
+.destination-dropdown .col{
+    margin: 0;
+    padding: 0 6px 0px 0px;
+    width: 185px;
+    float: left;
+    text-align: left !important;
+}
+.destination-dropdown a{
+    margin: 0 !important;
+    padding: 0 !important;
+    display: block !important;
+    width: 100% !important;
+    font-family: Arial !important;
+    font-size: 1.05em !important;
+    text-transform: capitalize !important;
+    color: #000 !important;
+    font-weight: normal !important;
+}
+.destination-dropdown a.region{
+    margin: 5px 0px !important;
+    font-size: 1.3em !important;
+    font-family: Arial !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+}
+.search-slider input, .search-slider select, .search-slider .dropdownbtn{
+    background-color: #333 !important;
+}
+ul.yiiPager a{
+    color: #111 !important;
+}
+ul.yiiPager a:hover{
+    border: 1px solid #000 !important;
+}
+ul.yiiPager a{
+
+    border: 1px solid #333 !important;
+    border-radius: 2px;
+}
+ul.yiiPager .selected a {
+    background: #333 !important;
+    color: #FFF !important; 
+}
+ul.yiiPager .hidden a{
+    background: #EEE !important;
+    color: #DDD !important; 
+    border: 1px solid #DDD !important;
+    cursor: default;
+
+}
+
+.rt{
+    text-align: right;
+}
+
+.enquire{
+    display: none;
+}
+.enquire-btn{
+    padding: 5px 10px;
+    font-size: 1.8em;
+    background: #8c7853;
+    color: #FFF;
+    font-family: "TwCenRegular";
+    font-weight: normal;
+    text-transform: uppercase;
+    float: right;
+    color: #FFF !important;
+	text-decoration: none;
+}
+
+.bio{
+    position: absolute;
+    top: 50px;
+    background: url(/images/w90.png);
+    z-index: 9999;
+    display: none;
+}
+.col:hover .bio{
+    display: block;
+}
+
+.bold{
+    color: #8c7853;
+    font-family: "TwCenBold";
+    font-weight: bold;
+    font-size: 1.4em;
+}
+.yellow{
+    color: #8c7853;
+    font-family: "TwCenRegular";
+    font-weight: normal;
+    font-size: 1.2em;
+}
+.slideImages{
+    width: 960px;
+    height: 458px;
+}
+.slideImages img{
+    width: 960px;
+    height: 458px;
+}
+
+.social-btns ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.social-btns ul li{
+    float: left;
+}
+.social-btns ul li a{
+    display: block;
+    width: 32px;
+    height: 52px;
+    background-image: url(/images/social_media_icons.jpg);
+    text-indent: -9999px;
+}
+.social-btns ul li a.twitter-btn{
+    background-position: -5px 0px ;
+}
+.social-btns ul li a.facebook-btn{
+    background-position: -35px 0px ;
+}
+.social-btns ul li a.youtube-btn{
+    background-position: -67px 0px ;
+}
+.social-btns ul li a.linkedin-btn{
+    background-position: -99px 0px ;
+}
+.social-btns ul li a.eleqt-btn{
+    background-position: -131px 0px ;
+}
+::-webkit-input-placeholder {color:  #AAA;}
+
+:-moz-placeholder {color: #AAA;}
+.placeholder{
+    color: #AAA;
+    line-height: 1.4;
+}
+
+#hu{
+    display: none;
+}
+
+.empty{
+    padding: 20px;
+    text-align: center;
+    display: block;
+}
