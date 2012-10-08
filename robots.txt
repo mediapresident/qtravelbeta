@@ -5,3 +5,5 @@ Disallow: /search.php?*
 Disallow: /hotel.php?*
 Disallow: /itinerary/
 Disallow: /itinerary-destinations
+
+## changes in oct
